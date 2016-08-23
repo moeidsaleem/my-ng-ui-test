@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>test</title>
+</head>
+<body>
+
+<!-- index.html -->
+    <div ui-view="viewA"></div>
+    <div ui-view="viewB"></div>
+    <!-- Also a way to navigate -->
+    <a ui-sref="route1">Route 1</a>
+    <a ui-sref="route2">Route 2</a>
+
+<!-- angular dependencies -->
+<script src="app/lib/angular/angular.js"></script>
+<script src="app/lib/angular-route.min.js"></script>
+<script src="app/lib/angular-ui-router.js"></script>
+<script src="app/lib/angular-animate.js"></script>
+
+<!-- app.js file -->
+<script src="app/app.js"></script>
+<script src="app/routes.js"></script>
+</body>
+</html>
